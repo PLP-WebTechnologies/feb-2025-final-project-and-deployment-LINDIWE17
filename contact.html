@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - DeVop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="contact-info">
+        <h2 class="contact-title">Get In Touch With Us</h2>
+        <p><strong>Phone:</strong> +27 123 456 789</p>
+        <p><strong>Email:</strong> contact@devop.com</p>
+        <p><strong>Address:</strong> 123 Tech Street, Tshwane, South Africa</p>
+    </div>
+    <section class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Have questions? Reach out to us!</p>
+
+        <div class="contact-container">
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
+
+

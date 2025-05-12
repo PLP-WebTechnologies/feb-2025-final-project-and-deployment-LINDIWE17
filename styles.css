@@ -1,0 +1,214 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+
+
+button:hover {
+    background-color: orangered;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.header-title {
+    font-size: 5vw; /* Adjusts based on screen size */
+    font-weight: bold;
+    text-align: left;
+}
+
+body {
+    background-image: ('images/image.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+ 
+.header-title {
+    color: orangered; /* Text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Shadow for better readability */
+    margin: 20px; /* Adds some space around the title */
+}
+
+nav {
+    display: flex; /* Enables horizontal layout */
+    justify-content: center; /* Centers the links */
+    padding: 10px;
+}
+
+nav a {
+    color: white; /* Text color */
+    text-decoration: none; /* Removes underline */
+    padding: 10px 20px; /* Adds spacing */
+    font-size: 18px;
+}
+
+nav a:hover {
+        text-shadow: 0 0 10px #ff7700, 0 0 20px #ff7700; /* Green glow effect */
+}
+
+.p1 {
+    font-size: 1.5em; /* Adjusts the font size */
+    color: white; /* Text color */
+    margin: 20px; /* Adds some space around the paragraph */
+    font-weight: bold; /* Makes the text bold */
+}
+
+.p2 {
+    font-size: 1.2em; /* Adjusts the font size */
+    color: orangered; /* Text color */
+    margin: 20px; /* Adds some space around the paragraph */
+    font-weight: bold; /* Normal weight */
+}
+
+.p3 {
+    font-size: 1.2em; /* Adjusts the font size */
+    color: white; /* Text color */
+    margin: 20px; /* Adds some space around the paragraph */
+    font-weight: bold; /* Normal weight */
+}
+
+.p4 {
+    font-size: 1.2em; /* Adjusts the font size */
+    color: white; /* Text color */
+    margin: 20px; /* Adds some space around the paragraph */
+    font-weight: normal; /* Normal weight */
+}
+
+.join-title {
+    font-size: 2em; /* Adjusts the font size */
+    color: orangered; /* Text color */
+    margin: 20px; /* Adds some space around the title */
+    font-weight: bold; /* Makes the text bold */
+}
+
+.image-container {
+    display: flex; /* Enables horizontal layout */
+    gap: 20px; /* Adds space between images */
+    justify-content: center; /* Centers the images */
+}
+
+.image-box {
+    width: 300px;
+    text-align: center;
+    background-color: #f0f0f0; /* Optional: Light background */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.image-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: Makes images rounded */
+}
+
+.about-section {
+    background-image: url('images/image4.jpg'); /* Ensure correct path */
+    background-size: cover; /* Covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating */
+    padding: 40px;
+}
+
+.image-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background: transparent; /* Ensures images blend with background */
+}
+
+.image-box {
+    width: 300px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2); /* Light transparency effect */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.about-header {
+    font-size: 2em; /* Adjusts the font size */
+    color: orangered; /* Text color */
+    margin: 20px; /* Adds some space around the header */
+    font-weight: bold; /* Makes the text bold */
+}
+
+.intro strong {
+    color: orange;
+}
+
+.image-container img:hover {
+    box-shadow: 0 0 15px rgba(255, 165, 0, 0.8); /* Orange glow */
+}
+
+.contact-section {
+    background-color: #f4f4f4;
+    padding: 40px;
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: orange; /* Button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: orangered;
+}
+
+.contact-container {
+    display: flex; /* Enables side-by-side layout */
+    gap: 20px; /* Space between map and form */
+    justify-content: right; /* Centers content horizontally */
+    align-items: flex-start; /* Aligns both at the top */
+}
+
+.map-container {
+    width: 40%; /* Makes the map take 40% of the space */
+}
+
+.contact-form {
+    width: 50%; /* Form takes 50% */
+}
+
+.map-container iframe {
+    width: 100%; /* Ensures the map fills its container */
+    height: 300px;
+    border-radius: 10px; /* Optional: Adds rounded edges */
+}
+
+.contact-info {
+    background-color: grey;
+}
+
+.contact-title {
+    font-size: 24px;
+    color: orange; /* Change to any color */
+    font-weight: bold;
+    text-align: center;
+}
